@@ -1,15 +1,12 @@
-import React from 'react'
-import './App.css'
-import DixieApp from "./Components/newweb.jsx"
+import dixieLogo from '../assets/SVG/dixie-logo.svg'
+
 function App() {
  
 
   return (
-    <>
-    <DixieApp/>
-    
-   
-    </>
+    <div>
+      <img src={dixieLogo} />
+    </div>
   )
 }
 
